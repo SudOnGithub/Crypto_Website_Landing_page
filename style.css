@@ -1,0 +1,492 @@
+body{
+    padding:0;
+    margin:0;
+    font-family: "inter";
+}
+
+.head-pane{
+    height: 80px;
+    background-color: black; 
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.head-pane a{
+    color:white;
+    text-decoration: none;
+    margin-right: 3%;
+}
+
+.head-pane button{
+    background-color: #ffd300;
+    height: 30px;
+    width: 100px;
+    border: 0px solid ;
+    border-radius: 4px;
+    margin-right: 3%;
+}
+
+
+/* SECTION 2 */
+
+
+.intro-area{
+    background-color: #ffd300;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-area1{
+    margin-right: 6%;
+    /* border: 5px solid red; */
+    width: 40%;
+}
+
+.intro-area1{
+     height: 50vh;
+}
+
+.intro-area1 button{
+    border: 0;
+    width: 25%;
+    height: 12%;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+}
+
+.intro-area2{
+    padding: 1%;
+    background-color: white;
+    height: 46vh;
+    width: 48%;
+    border-radius: 5px;
+}
+
+.intro-area2-outer-box button{
+    position: relative;
+    padding: 3%;
+    left:10%;
+    padding-top: 0;
+    background-color: #ffd300;
+    border: 0;
+    border-radius: 5px;
+    padding-bottom: 2%;
+    display: flex;
+    align-items: center;
+    width: 43%;
+}
+
+.intro-area2-outer-box>div{
+    display: flex;
+}
+
+
+.button-3-part2 i{
+    margin-left: 300%;
+}
+
+.intro-area2-outer-box button p{
+    text-align: left;
+    font-weight: 700;
+    color: black;
+}
+
+
+
+.intro-area2-pos{
+    display: flex;
+}
+
+.intro-area2-round-pics img{
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    border:5px solid #ffd300;
+    margin: 0;
+    padding: 0%;
+    position: relative;
+}
+
+#img2{
+    right: 2%;
+}
+
+#img3{
+    right: 4%;
+}
+
+.intro-area2-stars img{
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+.intro-area2-stars{
+    margin-left: 5%;
+}
+
+/* SECTION 3 BUTTONS*/
+
+
+.section3{
+    height: 20vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.section3 a{
+    text-decoration: none;
+    width: 12%;
+}
+
+.section3 span{
+    font-size: 1.2rem;
+    color: black;
+    margin-left: 5%;
+}
+
+.section3 i{
+    background-color: #ffd300;
+    border-radius: 50%;
+    font-size:1.5rem ;
+    padding: 7%;
+    color: black;
+}
+
+.section3a{
+    height: 30vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3b{
+    height: 50vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.section3b i{
+    font-size: 2rem;
+}
+
+.section3b-p{
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+
+.section3b-buttons{
+    color: white;
+    background-color: black;
+    border: 0;
+    border-radius: 4px;
+    height: 5vh;
+    width: 20%;
+}
+
+.section3b-p2{
+    color: grey;
+    font-weight: 600;
+}
+
+/* SECTION 4 Clients*/
+
+.clients{
+    text-align: center;
+    background-image: url(./desktop-1920x1080.jpg);
+    background-size: cover;
+    color: white;
+}
+
+
+.clients img{
+    outline-style: solid;
+    outline-width: 0.1 rem;
+    outline-color: white;
+    border: 0.4rem solid transparent;
+    height: 20vh;
+    width: 18%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+/* SECTION 5 */
+
+.question-section{
+    background-color: #ffd300;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.question-section>h1{
+    text-align: center;
+}
+
+.question-section>p{
+    margin-left: 15%
+}
+
+/* SECTION 6 */
+
+
+
+.partner-section{
+    text-align: center;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.partner-section>img{
+    outline-style: solid;
+    outline-offset: .4rem;
+    outline-width: 0.4 rem;
+    outline-color: rgba(128, 128, 128, 0.524);
+    border:  .1rem solid rgba(128, 128, 128, 0.877);
+    height: 20vh;
+    width: 15%;
+    margin-left: 2%;
+    margin-right: 2%;
+    object-fit: scale-down;
+    margin-top: 2%;
+}
+
+/* SECTION 7 */
+
+.blog-section{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.blog-section button{
+    background-color: #ffd300;
+    border-radius: 3px;
+    border:0;
+}
+
+.blog123{
+    background-size: cover;
+    padding: 2%;
+    border-radius: 4px;
+    text-align: left;
+    height: 12rem;
+    width: 23%;
+}
+
+.blog1{
+    background: linear-gradient(to bottom, rgba(39, 39, 39, 0.5),rgba(240, 196, 0, 0.503), rgba(39,39,39,.5)) , url(./blog1.png);
+}
+
+.blog2{
+    background: linear-gradient( to bottom, rgba(39, 39, 39, 0.5),rgba(240, 196, 0, 0.503), rgba(39,39,39,.5)) , url(./blog2.png);   
+}
+
+.blog3{
+    background: linear-gradient(rgba(39, 39, 39, .5),rgba(240, 196, 0, 0.503),  rgba(39, 39,39,0.5)), url(./blog3.png)
+}
+
+.blog123 p{
+    position: relative;
+    top: 20vh;
+    text-align: bottom;
+    color: white;
+    font-weight: 900;
+}
+
+#visit-our-blog{
+    text-align: center;
+}
+
+#visit-our-blog>button{
+    height: 7vh ;
+    width: 10%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    border:0;
+}
+
+.newsletter{
+    height: 20vh;
+    background-color: #ffd300;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.newsletter>p{
+    width: 40%;
+}
+
+.newsletter input{
+    border: 0;
+    height: 5vh;
+    width: 100%;
+    border-radius: 4px;
+}
+
+
+/*  Section 8 roadmap */
+
+.roadmap h1{
+    text-align: center;
+}
+
+.roadmap{
+    height: 160vh;
+    background-color: rgb(253, 246, 237);
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.long-line{
+    height: 140vh;
+    width: 5px;
+    position: absolute;
+    background-color: #ffd300;
+    right: 50%;
+    z-index: 3;
+}
+
+.circle-dot{
+    position: relative;
+    right: 7.5px;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.dot1{
+    position: relative;
+    top: 3vh;
+}
+.dot2{
+    position: relative;
+    top: 34vh;
+}
+
+.dot3{
+  position: relative;
+  top: 66vh;
+}
+
+.dot4{
+  position: relative;
+  top: 97.5vh;
+}
+
+.Q1, .Q3{
+    position: relative;
+    left: 55%;
+    height: 35vh;
+    width: 30vw;
+    background-color: rgb(255, 255, 255);
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.Q2, .Q4{
+    position: relative;
+    left: 15%;
+    height: 35vh;
+    width: 30vw;
+    background-color: rgb(255, 255, 255);
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+
+.head-para{
+    position: relative;
+    margin-top: 0;
+    padding: 2%;
+    background-color: black;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    color: white;
+    height: 15%;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+}
+
+#box1, #box3{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    top: 2.5vh;
+    left: -.7vw;
+    transform: rotate(45deg);
+    background-color: black;
+    z-index: 0;
+}
+
+#box2, #box4{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    top: 2.5vh;
+    left: 29vw;
+    transform: rotate(45deg);
+    background-color: black;
+    z-index: 0;
+}
+
+/* Section 9 Footer */
+
+.footer{
+    padding-top:5%;
+    padding-left: 5%;
+    height: 30vh;
+    background-color: black;
+    color: white;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #ffd300;
+}
+
+.footer i{
+    font-size: 1.5rem;
+    margin-right: 2%;
+    color: white;
+}
+
+.last-section{
+    background-color: black;
+    height: 10vh;
+    width: 100%;
+}
+
+#line{
+    height: .2vh;
+    background-color: #ffd300;
+}
+
+#bottom{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.iconic{
+    position: relative;
+    font-size: 1.5rem;
+    color: white;
+    margin-right: 5%;
+}
+
+#bottom-icons{
+    width: 30%;
+}
